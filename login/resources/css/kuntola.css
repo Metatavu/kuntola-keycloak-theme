@@ -1,0 +1,153 @@
+.login-pf {
+  height: auto;
+}
+
+.login-pf body {
+  background: url('../img/bg-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.login-pf .container {
+  background-color: transparent;
+}
+
+.login-pf .container .login {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+.login-pf .container .details{
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+#kc-info {
+  border: none;
+  text-align: center;
+}
+
+#kc-registration {
+  text-align: center;
+  margin-left: -35px;
+}
+
+select.input-lg,.input-lg {
+  height: 60px;
+}
+
+#kc-logo-wrapper {
+  background-image: url(../img/kuntola.png);
+  background-size: contain;
+  height: 70px;
+  width: 170px;
+}
+
+@media (min-width: 768px) {
+  #kc-logo-wrapper {
+    position: absolute;
+    top: 25px;
+    left: 80px;
+  }
+}
+
+.form-control::placeholder,select.form-control {
+   color: #000;
+   font-weight: bold;
+   font-style: normal;
+}
+
+.kuntola-primary-btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: transparent;
+  color: #fff;
+  border-radius: 0;
+  border: 2px solid #fff;
+  transition: background-color 150ms linear;
+
+}
+
+.btn.kuntola-primary-btn:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.btn-lg {
+  text-transform: uppercase;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+.privacy-text {
+  color: #fff;
+}
+
+.kuntola-form-options {
+  text-align: center;
+}
+
+.kuntola-form-options a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.header-text {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.header-background-info {
+  display: none;
+}
+
+#kc-container-wrapper {
+  position: relative;
+}
+
+#page-numbers-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.page-number {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.4);
+  min-width: 160px;
+}
+
+.page-number-header {
+  font-size: 14px;
+  padding-bottom: 15px;
+  max-width: 155px;
+}
+
+.page-number-container {
+  border-radius: 50%;
+  font-size: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  width: 50px;
+}
+
+.page-number.active {
+  color: #fff;
+}
+
+.page-number.active .page-number-container {
+  border-color: #fff;
+}
