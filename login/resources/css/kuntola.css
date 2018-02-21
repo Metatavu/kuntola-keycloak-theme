@@ -1,5 +1,6 @@
 .login-pf {
   height: auto;
+  min-height: 100%;
 }
 
 .login-pf body {
