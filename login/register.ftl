@@ -62,58 +62,14 @@
                     </div>
                 </div>
                 </#if>
-
-                <div class="${properties.kcFormGroupClass!}">
-                    <div id="kc-form-buttons" class="${properties.kcFormButtonsClass!}">
-                        <input data-target-page="1" class="change-registration-page-btn ${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}" type="submit" value="${msg("doRegister")}"/>
-                    </div>
-                </div>
-            </div>
-          
-            <div style="display: none;" class="${properties.kuntolaRegistrationPageClass!}" data-page="1">
-                <div class="form-group">
-                   <div class="${properties.kcInputWrapperClass!}">
-                      <select class="${properties.kcInputClass!}"  id="user.attributes.sex" name="user.attributes.sex">
-                        <option value="" disabled selected>${msg("sex")}</option>
-                        <option value="MALE">${msg("sex_male")}</option>
-                        <option value="FEMALE">${msg("sex_female")}</option>
-                        <option value="OTHER">${msg("sex_other")}</option>
-                      </select>
-                   </div>
-                </div>
-
-                <div class="form-group">
-                   <div class="${properties.kcInputWrapperClass!}">
-                       <input placeholder="${msg("birthday")}" type="text" class="${properties.kcInputClass!}"  id="user.attributes.birthday" name="user.attributes.birthday"/>
-                   </div>
-                </div>
-
-                <div class="form-group">
-                   <div class="${properties.kcInputWrapperClass!}">
-                       <input placeholder="${msg("height")}" type="number" class="${properties.kcInputClass!}"  id="user.attributes.height" name="user.attributes.height"/>
-                   </div>
-                </div>
-
-                <div class="form-group">
-                   <div class="${properties.kcInputWrapperClass!}">
-                       <input placeholder="${msg("weight")}" type="number" class="${properties.kcInputClass!}"  id="user.attributes.weight" name="user.attributes.weight"/>
-                   </div>
-                </div>
-
-                <#if recaptchaRequired??>
-                <div class="form-group">
-                    <div class="${properties.kcInputWrapperClass!}">
-                        <div class="g-recaptcha" data-size="compact" data-sitekey="${recaptchaSiteKey}"></div>
-                    </div>
-                </div>
-                </#if>
-
+                
                 <div class="${properties.kcFormGroupClass!}">
                     <div id="kc-form-buttons" class="${properties.kcFormButtonsClass!}">
                         <input class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}" type="submit" value="${msg("doRegister")}"/>
                     </div>
                 </div>
             </div>
+          
             <div class="${properties.kcFormGroupClass!} text-center">
               <p class="${properties.kcPrivacyTextClass!}">
                 ${msg("privacyText")}
