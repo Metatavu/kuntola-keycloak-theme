@@ -61,6 +61,15 @@ select.input-lg,.input-lg {
    font-style: normal;
 }
 
+.alert {
+  margin-top: 45px;
+  font-size: 16px;
+}
+
+.alert .pficon {
+  display: none;
+}
+
 .kuntola-primary-btn {
   margin-left: auto;
   margin-right: auto;
