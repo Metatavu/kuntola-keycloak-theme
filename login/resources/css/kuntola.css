@@ -40,6 +40,10 @@ select.input-lg,.input-lg {
   height: 60px;
 }
 
+input[type="checkbox"] {
+  vertical-align: sub !important;
+}
+
 #kc-logo-wrapper {
   background-image: url(../img/kuntola.png);
   background-size: contain;

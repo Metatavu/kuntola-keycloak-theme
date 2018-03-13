@@ -62,7 +62,16 @@
                     </div>
                 </div>
                 </#if>
-                
+                <div class="form-group">
+                   <div class="${properties.kcInputWrapperClass!}">
+                      <label for="user.attributes.dataUsagePermission"><input checked="checked" type="checkbox" value="true" id="user.attributes.dataUsagePermission" name="user.attributes.dataUsagePermission"/> ${msg("dataUsagePermission")}</label>
+                   </div>
+                </div>
+                <div class="form-group">
+                   <div class="${properties.kcInputWrapperClass!}">
+                      <label for="user.attributes.contactByEmailPermission"><input checked="checked" type="checkbox" value="true" id="user.attributes.contactByEmailPermission" name="user.attributes.contactByEmailPermission"/> ${msg("contactByEmailPermission")}</label>
+                   </div>
+                </div>                
                 <div class="${properties.kcFormGroupClass!}">
                     <div id="kc-form-buttons" class="${properties.kcFormButtonsClass!}">
                         <input class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}" type="submit" value="${msg("doRegister")}"/>
