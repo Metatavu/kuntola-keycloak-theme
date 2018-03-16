@@ -5,11 +5,6 @@
     <#elseif section = "header">
         ${msg("registerWithTitleHtml",(realm.displayNameHtml!''))?no_esc}
     <#elseif section = "form">
-        <div id="header-text-container">
-          <h1 class="${properties.kuntolaHeaderTextClass!} ${properties.kuntolaHeaderTextRegistrationClass!}" >${msg("header_registration")}</h1>
-          <h1 class="${properties.kuntolaHeaderTextClass!} ${properties.kuntolaHeaderTextBackgroundInfoClass!}" >${msg("header_background_info")}</h1>
-        </div>
-
         <div id="page-numbers-container" class="col-xs-4">
           <div data-page="0" class="page-number active">
             <div class="page-number-header">${msg("header_registration")}</div>
