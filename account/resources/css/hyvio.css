@@ -1,0 +1,180 @@
+@import url('https://cdn.metatavu.io/fonts/montserrat/v12/style.css');
+
+h1,h2,h3,h4,h5,p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+.bs-sidebar {
+  padding-top: 15px;
+}
+
+.kc-dropdown {
+  display: none;
+}
+
+header#masthead {
+  background-color: #000;
+}
+
+.navbar-title {
+  background-image: url('../img/xamklogo.jpg');
+  height: 112px;
+  background-repeat: no-repeat;
+  width: 208px;
+  margin: 3px 10px 5px;
+  text-indent: -99999px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+body.home {
+  background: #eee;
+}
+body .ui-widget-overlay {
+  background: #000;
+  opacity: 0.75;
+  position: fixed;
+}
+body .ui-dialog {
+  max-width: 95% !important;
+}
+header#masthead {
+  background-color: #000;
+}
+.navbar-brand {
+  height: auto;
+}
+.navbar-nav {
+  float: right;
+  margin-top: 50px;
+  list-style-type: none;
+}
+.navbar-toggler {
+  display: none;
+  background: none;
+  margin-top: 50px;
+  float: right;
+}
+
+.dropdown-toggle {
+  display: none;
+}
+
+.dropdown-toggle > i {
+  font-size: 30px;
+}
+
+.dropdown-menu {
+  position: absolute !important;
+  top: 30px;
+  background-color: #fff !important;
+}
+
+.dropdown-menu-item {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .menu-item {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+  .navbar-brand {
+    max-width: 150px;
+  }
+}
+.navbar-toggler {
+  border: none;
+  color: #fff !important;
+  outline: none;
+  font-size: 30px;
+}
+#page-sub-header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+}
+@media only screen and (max-width: 991.98px) {
+  #page-sub-header {
+    padding-top: 25px;
+  }
+}
+body #masthead .navbar-nav > li.nav-item > a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  padding-right: 45px;
+}
+@media only screen and (min-width: 992px) {
+  body #masthead .navbar-nav > li.nav-item > a {
+    padding-top: 41px;
+    padding-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body #masthead .navbar-nav > li.nav-item > .dropdown-toggle {
+    display: block;
+    padding-top: 0;
+    padding-right: 5px;
+    padding-bottom: 0;
+  }
+}
+body #masthead .navbar-nav > li.nav-item > a > .fa-user {
+  display: none;
+  font-size: 18px;
+}
+@media only screen and (min-width: 992px) {
+  body #masthead .navbar-nav > li.nav-item > a > .fa-user {
+    display: block;
+  }
+}
+body #masthead .navbar-nav > li.nav-item > .dropdown-menu {
+  position: absolute !important;
+  background-color: #fff !important;
+  top: 30px !important;
+  left: auto !important;
+  right: 0;
+}
+body #masthead .navbar-nav > li.nav-item > .dropdown-toggle::after {
+  display: none !important;
+}
+.marketing-page-header {
+  text-transform: uppercase;
+  font-size: 28px;
+  margin-top: 45px;
+  margin-bottom: 35px;
+}
+@media only screen and (min-width: 992px) {
+  body #masthead .navbar-nav > li.nav-item > .btn-primary {
+    border: 2px solid #fff;
+    padding: 21px 26px;
+    margin-top: 19px;
+    border-radius: 0;
+    background: #000;
+  }
+  body #masthead .navbar-nav > li.nav-item > .btn-primary:active, body #masthead .navbar-nav > li.nav-item > .btn-primary:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  body #masthead .navbar-nav > li.nav-item > .btn-primary {
+    background: #000;
+    border: 0;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    padding-right: 25px;
+    padding-left: 0.5rem;
+  }
+}
